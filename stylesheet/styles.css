@@ -1,0 +1,187 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background-color: #fefae0;
+    text-align: center;
+    margin: 5px;
+}
+
+/* start navigation styles */
+#navcontainer {
+    width: 100%;
+    height: 100px;
+    background-color: #283618;
+    opacity: 90%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+li.navlist {
+    list-style-type: none;
+    width: 100px;
+    display: inline-block;
+    margin-bottom: 2%;
+    text-align: center;
+
+}
+
+ul.navlist {
+    margin-top: 10px;
+    padding: 0;
+}
+
+.navtitle {
+    color: #fefae0;
+    font-size: 3em;
+    display: inline;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+.navbar {
+    width: auto;
+    display: inline;
+}  
+/* end navigation styles*/ 
+
+h1 {
+    color: #283618;
+}
+
+p {
+    color: #283618;
+}
+
+
+#bodycontainer {
+    position: relative;
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20%;
+}
+
+#container {
+    margin-top: 20%;
+}
+img.biosquare {
+    border-radius: 50%;
+    width: 20%;
+    height: auto;
+}
+a {
+    color: #fefae0;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a.link {
+    color: #283618;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+a:active {
+    color:#dda15e;   
+}
+
+a:hover {
+    color:#dda15e;
+}
+
+
+.floatleft {
+    float: left;
+    width: 48%;
+    text-align: left;
+
+}
+
+.floatright {
+    float: right;
+    width: 48%;
+    text-align: left;
+
+
+}
+.description {
+    color: #dda15e;
+}
+
+.bold {
+    font-weight:bold;
+}
+
+.alignleft {
+    text-align: left;
+}
+
+.rectangle {
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+  }
+
+.proj1,
+.proj2,
+.proj3 {
+    width: 100%;
+    height: 300px;
+    border: solid black;
+    background-color: #FEFCEC;
+    margin-top: 0px;
+}
+
+.about1,
+.about2 {
+    width 100%
+    height 300px;
+
+}
+.header-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5%;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  
+  .header-container video {
+    width: 100%;
+    height: auto;
+  }
+  
+  .header-container h1 {
+    font-size: 2em;
+    margin: ;
+  }
+  
+  .header-container p {
+    font-size: 1.2em;
+    margin: 0;
+  }
+  
+
+img {
+    width: 50%;
+    height: auto;
+    border-radius: 10%;
+    border: 5px solid #283618;
+}
+
+;
+color: #606c38;
+color: #283618;
+color: #fefae0; background color
+color: #dda15e;
+color: #bc6c25;
+
+
